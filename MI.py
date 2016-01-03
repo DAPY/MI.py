@@ -1,5 +1,8 @@
 #-*- coding: utf-8 -*-
-__autor__ = "Diego Morell"
+__autor__ = "Diego Morell", "Alejandro Furió"
+
+import math
+import os
 
 #Calculo de matrices e integrales
 
@@ -26,15 +29,52 @@ if pr == "m":
 
 	print "¿Asi?"
 
-	print (a, b, c,)
-	print (d, e, f,)	
-	print (g, h, i,) 
+	def comprovacion():
+		print "¿Asi?"
+		print (a, b, c,)
+		print (d, e, f,)	
+		print (g, h, i,) 
 
 	respuesta = raw_input(":")	
 
 	if respuesta == "no":
 		print "¿Cual está mal?"
-		  
+		respuesta2 = raw_input(":")
+		if respuesta2 == "a":
+			a = input("a = :")
+			comprovacion()
+		 
+		elif respuesta2 == "b":
+			b = input("b = :")
+			comprovacion()
+
+		elif respuesta2 == "c":
+			c = input("c = :")
+			comprovacion()
+
+		elif respuesta2 == "d":
+			d = input("d = :")
+			comprovacion()	
+			
+		elif respuesta2 == "e":
+			e = input("e = :")
+			comprovacion()
+
+		elif respuesta2 == "f":
+			f = input("f = :")			
+			comprovacion()	
+
+		elif respuesta2 == "g":
+			g = input("g = :")
+			comprovacion()	
+
+		elif respuesta2 == "h":
+			h = input("h = :")
+			comprovacion()
+
+		elif respuesta2 == "i":
+			i = input("i = :")
+			comprovacion()		
 
 elif pr == "i":
 	#operación de integrales
